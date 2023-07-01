@@ -1,0 +1,22 @@
+.homePageWrapper {
+  position: relative;
+  background-size: cover;
+  .vectorImage {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .homeImage {
+    width: 100vw;
+    height: 100vh;
+  }
+  .profileImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+}
